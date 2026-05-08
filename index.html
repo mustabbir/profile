@@ -489,32 +489,44 @@ footer .dot{color:var(--accent)}
     <span class="sec-tag">// contact</span>
     <div class="sec-line"></div>
   </div>
+
   <div class="contact-wrap">
-    <h2 class="contact-cta reveal">Let's build<br>something <span class="accent">remarkable.</span></h2>
-    <p class="contact-lead reveal">Whether you're a recruiter, a future collaborator, or just want to talk data — I'd love to connect. Let's build something that matters.</p>
-    <div class="contact-links">
+    <h2 class="contact-cta reveal">
+      Let's build<br>something <span class="accent">remarkable.</span>
+    </h2>
+
+    <p class="contact-lead reveal">
+      Whether you're a recruiter, a future collaborator, or just want to talk data — I'd love to connect. Let's build something that matters.
+    </p>
+
+    <!-- FIXED: Equal distribution using CSS Grid -->
+    <div class="contact-links" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:20px;">
+
       <a href="mailto:mustafashabbir8194@gmail.com" class="clink reveal d1">
         <div class="clink-icon">✉️</div>
         <div class="clink-label">Email</div>
         <div class="clink-val">mustafashabbir8194@gmail.com</div>
         <div class="clink-arrow">→</div>
       </a>
-<a href="https://www.linkedin.com/in/mustafashabbir8194/" 
-   target="_blank" 
-   rel="noopener noreferrer"
-   class="clink reveal d2">
 
-  <div class="clink-icon">💼</div>
-  <div class="clink-label">LinkedIn</div>
-  <div class="clink-val">linkedin.com/in/mustafashabbir8194</div>
-  <div class="clink-arrow">→</div>
-</a>
-      <a href="#" class="clink reveal d3">
+      <a href="https://www.linkedin.com/in/mustafashabbir8194/"
+         target="_blank"
+         rel="noopener noreferrer"
+         class="clink reveal d2">
+
+        <div class="clink-icon">💼</div>
+        <div class="clink-label">LinkedIn</div>
+        <div class="clink-val">linkedin.com/in/mustafashabbir8194</div>
+        <div class="clink-arrow">→</div>
+      </a>
+
+      <a href="tel:+923122495909" class="clink reveal d3">
         <div class="clink-icon">📞</div>
         <div class="clink-label">Phone</div>
         <div class="clink-val">0312-2495909</div>
         <div class="clink-arrow">→</div>
       </a>
+
     </div>
   </div>
 </section>
